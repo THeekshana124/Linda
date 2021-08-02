@@ -63,8 +63,8 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm 𝓐𝓷𝓴𝓲 𝓥𝓮𝓬𝓽𝓸𝓻
-I'm a Powerful group manager bot With Cool Modules. Made by [𝓓𝓪𝓶𝓪𝓷𝓽𝓱𝓪 𝓙𝓪𝓼𝓲𝓷𝓰𝓱𝓮• 🇱🇰](t.me/Damantha_Jasinghe)
+Hello there, I'm Linda
+I'm a Powerful group manager bot With Cool Modules. Made by [𝙏𝙃𝙀𝙀𝙆𝙎𝙃𝘼𝙉𝘼](t.me/ImTheekshana)
 Hit /help to find my list of available commands
  
 """
@@ -72,32 +72,29 @@ Hit /help to find my list of available commands
 buttons = [
     [
         InlineKeyboardButton(
-            text="📢Updates Channel", url="https://t.me/ankivectorUpdates"
+            text="Updates Channel", url="https://t.me/Theekshana_Official"
         ),
         InlineKeyboardButton(
-            text="👥 Support Group", url="https://t.me/AnkiSupport_Official"
+            text="Support Group", url="https://t.me/Theekshana_Support"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="📜Source", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"
-        ),
-        InlineKeyboardButton(
-            text="❔ Help", url="http://t.me/TheAnkiVectorbot?start=help"
+            text="❔ Help", url="http://t.me/TheLindaBot?start=help"
         ),
     ],
     [
         InlineKeyboardButton(
             text="➕ Add Anki Vector to your group ➕",
-            url="t.me/TheAnkiVectorbot?startgroup=true",
+            url="t.me/TheLindaBot?startgroup=true",
         ),
     ],
 ]
 
-ANKIVECTOR_IMG = "https://telegra.ph/file/e10a45d0433a1ab6fed7b.jpg"
+ANKIVECTOR_IMG = 
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/e10a45d0433a1ab6fed7b.jpg)
+*Main Commands :* [🤖]()
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -112,7 +109,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [Damantha Jasinghe](t.me/Damantha_Jasinghe)"""
+Support them  [𝙏𝙃𝙀𝙀𝙆𝙎𝙃𝘼𝙉𝘼 𝘽𝙊𝙏𝙨 ](t.me/Theekshana_Official)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -372,9 +369,9 @@ def help_button(update, context):
 def AnkiVector_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
-        query.message.edit_text(
-            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by Anki Vector Updates.* "
-            f"\n\n Join [AnkiVectorUpdates](https://t.me/ankivectorUpdates) To Keep Yourself Updated About {dispatcher.bot.first_name}"
+        query.message.edit_text(𝙏𝙃𝙀𝙀𝙆𝙎𝙃𝘼𝙉𝘼 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇
+            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by𝙏𝙃𝙀𝙀𝙆𝙎𝙃𝘼𝙉𝘼 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇 .* "
+            f"\n\n Join [𝙏𝙃𝙀𝙀𝙆𝙎𝙃𝘼𝙉𝘼 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇](https://t.me/Theekshana_Official) To Keep Yourself Updated About {dispatcher.bot.first_name}"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features"
             f"\n\nYou Can Know More About Me By Clicking The Below Buttons",
@@ -407,7 +404,7 @@ def AnkiVector_about_callback(update, context):
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
             f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) And Selecting Chat. \n"
-            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [Anki Vectr Support](https://t.me/AnkiSupport_Official).\n"
+            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [𝙏𝙃𝙀𝙀𝙆𝙎𝙃𝘼𝙉𝘼 𝘽𝙊𝙏𝙨 Support](https://t.me/Theekshana_Support).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -426,7 +423,7 @@ def AnkiVector_about_callback(update, context):
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
-            f"\n\nBased on [Anki Vector Brother](https://t.me/TheVectorBrotherbot)."
+            f"\n\nBased on [Mizu](https://t.me/TheMizuBot)."
             f"\n\n{dispatcher.bot.first_name}'s source code was written by Damantha Jasinghe"
             f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
             parse_mode=ParseMode.MARKDOWN,
