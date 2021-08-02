@@ -85,16 +85,16 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add Anki Vector to your group ➕",
+            text="➕ Add Linda to your group ➕",
             url="t.me/TheLindaBot?startgroup=true",
         ),
     ],
 ]
  
-ANKIVECTOR_IMG = "https://telegra.ph/file/0b29fe9710b301a6b2326.jpg"
+ANKIVECTOR_IMG = "https://telegra.ph/file/c340c7de2aaa6641b3aea.jpg"
     
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/0b29fe9710b301a6b2326.jpg)
+*Main Commands :* [🤖](https://telegra.ph/file/c340c7de2aaa6641b3aea.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
