@@ -90,8 +90,7 @@ buttons = [
         ),
     ],
 ]
-
-ANKIVECTOR_IMG = 
+ 
 
 HELP_STRINGS = f"""
 *Main Commands :* [🤖]()
