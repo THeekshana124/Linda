@@ -91,7 +91,8 @@ buttons = [
     ],
 ]
  
-
+ANKIVECTOR_IMG = ""
+    
 HELP_STRINGS = f"""
 *Main Commands :* [🤖]()
 ✪ /start: Starts me! You've probably already used this.
