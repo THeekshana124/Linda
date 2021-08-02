@@ -368,7 +368,7 @@ def help_button(update, context):
 def AnkiVector_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
-        query.message.edit_text(𝙏𝙃𝙀𝙀𝙆𝙎𝙃𝘼𝙉𝘼 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇
+        query.message.edit_text(
             text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by𝙏𝙃𝙀𝙀𝙆𝙎𝙃𝘼𝙉𝘼 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇 .* "
             f"\n\n Join [𝙏𝙃𝙀𝙀𝙆𝙎𝙃𝘼𝙉𝘼 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇](https://t.me/Theekshana_Official) To Keep Yourself Updated About {dispatcher.bot.first_name}"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
